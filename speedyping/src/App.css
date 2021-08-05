@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+
+.Character {
+  white-space: pre;
+  margin-top: 10vw;
+  font-size: 30px;
+}
+
+.Character-current {
+  background-color: red;
+}
+
+.Character-out {
+  color: silver´
+}
