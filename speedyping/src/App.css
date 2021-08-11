@@ -1,18 +1,40 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);}
+.App {
+  background-color: rgba(255, 255, 255, .15); 
+  backdrop-filter: blur(5px);  
+  color: black;
+  text-align: center;
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30vh;
+  height: 20vh; 
+  box-shadow: 10px 5px 5px #000851;
+  padding-top: 10px;
+  }
 
 
 .Character {
   white-space: pre;
-  margin-top: 10vw;
+  margin-top: 5vw;
   font-size: 30px;
 }
 
 .Character-current {
-  background-color: red;
+  background-color:  #1CB5E0;
 }
 
 .Character-out {
-  color: silver´
+  color: #1CB5E0;
+}
+
+.wpm {
+  margin-bottom: 20vh;
+  margin-top: 20px;
 }

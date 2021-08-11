@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import { generate } from './utils/words';
-import useTypeKey from './Hooks/usetypeKey';
+import useTypeKey from './hooks/usetypeKey.js';
 import {currentTime} from './utils/time'
 
  
@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>SpeedTyping</h1>
+      <h1>SPEEDTYPING</h1>
         <p className="Character">
           <span className="Character-out">
             {(leftPadding + outgoingChars).slice(-20)}
@@ -74,9 +74,9 @@ function App() {
           <span className="Character-current">{currentChar}</span>
           <span>{incomingChars.substr(0, 20)}</span>
         </p>
-        <h3>
+        <div className="wpm">
           WPM: {wpm} | ACC: {accuracy}%
-        </h3>
+        </div>
        
       
     </div>
